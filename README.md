@@ -1,16 +1,33 @@
-## Hi there 👋
+# Simuletic
 
-<!--
-**Simuletic/simuletic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Simuletic builds tools for training, evaluating, and improving computer vision systems using synthetic and real-world data.
 
-Here are some ideas to get you started:
+We focus on safety-critical and edge-case-heavy visual AI, including:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- CCTV and video surveillance
+- security and incident analytics
+- robotics and physical AI
+- synthetic-to-real evaluation workflows
+
+## Open-source projects
+
+### [simuletic-core](https://github.com/Simuletic/simuletic-core)
+Core open-source toolkit for training, evaluating, and running computer vision models with synthetic and real-world datasets.
+
+## What we do
+
+Simuletic helps teams solve the hardest data problems in computer vision:
+- rare edge cases
+- hard negatives
+- difficult camera perspectives
+- degraded sensor conditions
+- synthetic-to-real generalization
+
+## Links
+
+- Website: [simuletic.com](https://simuletic.com)
+- Main toolkit: [simuletic-core](https://github.com/Simuletic/simuletic-core)
+
+## Contact
+
+- contact@simuletic.com
