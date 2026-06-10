@@ -11,7 +11,7 @@ We focus on safety-critical and edge-case-heavy visual AI, including:
 
 ## Open-source projects
 
-### [simuletic-core](https://github.com/Simuletic/simuletic-core)
+### [simuletic-vision](https://github.com/Simuletic/simuletic-vision)
 Core open-source toolkit for training, evaluating, and running computer vision models with synthetic and real-world datasets.
 
 ## What we do
