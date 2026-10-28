@@ -2,7 +2,7 @@
 
 **Synthetic CCTV and security datasets for computer vision.** Weapons, knives, falls, fights, shoplifting, fire and drones, seen from real CCTV camera angles, with hard negatives, labelled in YOLO and COCO. No real people, so no privacy problem.
 
-Simuletic is a Swedish company (Swegardt AI Solutions Sweden AB, since 2023) that sells synthetic CCTV and security datasets for computer vision: 16 datasets with YOLO and COCO labels, one-time licences from $149 (research) and $590 (commercial), free samples on Hugging Face, Kaggle and GitHub, and detectors measured on real footage.
+Simuletic is a Swedish company (since 2023) that sells synthetic CCTV and security datasets for computer vision: 16 datasets with YOLO and COCO labels, one-time licences from $149 (research) and $590 (commercial), free samples on Hugging Face, Kaggle and GitHub, and detectors measured on real footage.
 
 [Website](https://simuletic.com/?utm_source=github&utm_medium=profile&utm_campaign=profile) · [All datasets](https://simuletic.com/datasets?utm_source=github&utm_medium=profile&utm_campaign=profile) · [Hugging Face](https://huggingface.co/Simuletic) · contact@simuletic.com
 
