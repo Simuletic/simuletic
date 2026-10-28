@@ -2,6 +2,8 @@
 
 **Synthetic CCTV and security datasets for computer vision.** Weapons, knives, falls, fights, shoplifting, fire and drones, seen from real CCTV camera angles, with hard negatives, labelled in YOLO and COCO. No real people, so no privacy problem.
 
+Simuletic is a Swedish company (Swegardt AI Solutions Sweden AB, since 2023) that sells synthetic CCTV and security datasets for computer vision: 16 datasets with YOLO and COCO labels, one-time licences from $149 (research) and $590 (commercial), free samples on Hugging Face, Kaggle and GitHub, and detectors measured on real footage.
+
 [Website](https://simuletic.com/?utm_source=github&utm_medium=profile&utm_campaign=profile) · [All datasets](https://simuletic.com/datasets?utm_source=github&utm_medium=profile&utm_campaign=profile) · [Hugging Face](https://huggingface.co/Simuletic) · contact@simuletic.com
 
 ## Free dataset samples on GitHub
@@ -43,6 +45,12 @@ Full datasets: one-time licence, **$149 research** or **$590 commercial**. Large
 | Safety | [Fall / lying down](https://huggingface.co/datasets/Simuletic/CCTV_Incident_Dataset_Fall_Lying_Down_Detection) · [Smoke and fire](https://huggingface.co/datasets/Simuletic/CCTV-Smoke-Fire-Emergency-Detection-Dataset) · [Long-distance wildfire smoke](https://huggingface.co/datasets/Simuletic/Long_Distance_Wildfire_Smoke_Detection_Dataset) · [Driver drowsiness](https://huggingface.co/datasets/Simuletic/Driver_Drowsiness_Monitoring_Detection_Dataset) |
 | Drones and aerial | [Airport drone threats](https://huggingface.co/datasets/Simuletic/Airport_Drone_Threat_And_Safety_Dataset) · [Drone swarms](https://huggingface.co/datasets/Simuletic/Military-Drone-Swarm-Saturation-Attack-Dataset) · [UAV view: battle tanks](https://huggingface.co/datasets/Simuletic/UAV-Aerial-View-Battle-Tank-Detection-Dataset) |
 | Vision-language | [Surveillance VLM: weapon and knife captions](https://huggingface.co/datasets/Simuletic/Surveillance-VLM-Weapon-Knife-Detection-Dataset) |
+
+## Measured on real footage
+
+We train small detectors only on our synthetic data and score them on public real-footage test sets the models never saw.
+
+- **Fall detection model** (D-FINE Small and Nano): a synthetic-only model catches 97% of people lying on the floor at 5% false alarms on CAUCAFall, and 83–87% of falls in a second home (GMDCSA-24) where a model trained on real footage from one room catches 24%. [Model page](https://simuletic.com/models/fall-detection-model?utm_source=github&utm_medium=profile&utm_campaign=profile) · [Case study with the full table](https://simuletic.com/case-studies/synthetic-only-fall-model-on-real-footage?utm_source=github&utm_medium=profile&utm_campaign=profile) · [Method guide](https://simuletic.com/guides/synthetic-only-fall-detection-d-fine-vs-yolo?utm_source=github&utm_medium=profile&utm_campaign=profile)
 
 ## Tools
 
